@@ -5,12 +5,35 @@
 	border:0;
 
 }
+<<<<<<< HEAD
 #mynetwork {
 		width: 600px;
 		height: 400px;
 		border: 1px solid lightgray;
 	}
 .email { unicode-bidi: bidi-override; direction: rtl; user-select: none;  }
+=======
+
+
+
+.meter {
+  display: inline-block;
+  width: 100px;
+  height: 10px;
+  background: green;
+  transition: all 52ms linear;
+}
+
+#mynetwork {
+	width: 600px;
+	height: 400px;
+	border: 1px solid lightgray;
+}
+	
+.email { 
+	unicode-bidi: bidi-override; direction: rtl; user-select: none;  
+}
+>>>>>>> upstream/master
 
 a:link {
 	text-decoration: none;
@@ -33,11 +56,38 @@ a:active {
   color: #D9E4EB;
 }
 
+<<<<<<< HEAD
 
 
 .credits {
 	color:black;
 	position:absolute;
+=======
+input {
+    border-radius: 4px;
+	padding:2px;
+}
+
+button {
+    border-radius: 7px;
+	border: 1px solid #4444;
+
+	padding:5px 10px 3px 10px;
+	margin:10px 0px;
+}
+
+#header {
+	width: 100%;
+	min-height: 24px;
+	background-color:#0F131D;
+	color:#FFF;
+	
+}
+
+.credits {
+	color:black;
+	position:fixed;
+>>>>>>> upstream/master
 	bottom:0;
 	right:0;
 	z-index:-1;
@@ -48,11 +98,39 @@ a:active {
 .credits >a:visited{
 	color:black;
 }
+<<<<<<< HEAD
 .gowebcam {
 	font-size:110%;
 	padding:10px;border:3px solid #CCC; cursor:pointer; background-color:#FFF
 }
 
+=======
+
+.chevron{
+	padding:0px 6px;
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.14em 0.14em 0 0;
+	content: '';
+	display: inline-block;
+	height: 0.32em;
+	left: 0.15em;
+	position: relative;
+	top: .43em;
+	transform: rotate(-45deg);
+	vertical-align: top;
+	width: 0.32em;
+}
+
+.chevron.bottom:before {
+	top: .28em;
+	transform: rotate(135deg);
+}
+
+
+>>>>>>> upstream/master
 .pressed {
   background: #e3e3e3;
   -webkit-box-shadow: inset 0px 0px 5px #a1a1a1;
@@ -82,6 +160,11 @@ hr {
 	clear: both;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> upstream/master
 .vidcon {
 	max-width:100%;
 	max-height:100%;
@@ -98,10 +181,17 @@ hr {
 	border:0;
 	padding:0;
 	margin:0;
+<<<<<<< HEAD
 	border:0;
 }
 
 #gridlayout {
+=======
+}
+
+#gridlayout {
+	padding:0;
+>>>>>>> upstream/master
 	display: grid;
 	width:100%;
 	height:100%;
@@ -122,11 +212,19 @@ hr {
 	grid-auto-columns: minmax(100px,500px);
 	grid-auto-rows: minmax(100px, 300px);
 	display:block ! important;
+<<<<<<< HEAD
+=======
+	overflow-y: auto !important;
+>>>>>>> upstream/master
 
 }
 .directorsgrid video {
 	max-width: 400px;
+<<<<<<< HEAD
 	max-height: 300px;
+=======
+	max-height: 225px;
+>>>>>>> upstream/master
 	min-width: 300px;
 	padding:10px 10px 0px 10px !important;
 }
@@ -136,19 +234,39 @@ hr {
     max-height: 500px !important;
 	background: #E3E4EF;
 }
+<<<<<<< HEAD
 .directorsgrid .tile {
         width: auto;
 	height: auto;
 }
+=======
+
+>>>>>>> upstream/master
 
 html {
 	border:0;
 	margin:0;
 }
 
+<<<<<<< HEAD
 
 
 body {
+=======
+li {
+    margin: 0.1em 0;
+    padding-left: 0.1em;
+    line-height: 1.4em;
+}
+
+body {
+	
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+	color: var(--gray90);
+    font-family: "Lato", sans-serif;
+	
+>>>>>>> upstream/master
 	padding: 0 0px;
 	height: 100%;
 	width: 100%;
@@ -165,11 +283,33 @@ body {
 	
 }
 
+<<<<<<< HEAD
 
 .gowebcam {
 	padding:20px;
 	background-color:white;
 }
+=======
+.gowebcam {
+	font-size:110%;
+	border:3px solid #DDDDDD;
+	cursor:pointer;
+	background-color:#DDDDDD;
+	margin: 20px;
+	padding:10px 50px;
+}
+
+.gobutton {
+	font-size:110%;
+	padding:10px;
+	border:3px solid #DDDDDD;
+	cursor:pointer;
+	background-color: #99BFD9;
+    color: black;
+    font-weight: bold;
+}
+
+>>>>>>> upstream/master
    .infoblob {
 	   color:white;
 	   width:100%;
@@ -201,6 +341,10 @@ body {
 	   }
 	   .gowebcam {
 		   padding:5px;
+<<<<<<< HEAD
+=======
+		   margin: 5px;
+>>>>>>> upstream/master
 	   }
 
 	   .infoblob {
@@ -241,7 +385,11 @@ body {
 	   #reshare{
 		   max-width:650px !important;
 		   font-size:96% !important;
+<<<<<<< HEAD
 		   min-width:400px !important;
+=======
+		   width:300px !important;
+>>>>>>> upstream/master
 		   
 	   }
 		.fa-paperclip {
@@ -260,11 +408,52 @@ body {
 			float:none !important;
 			padding: 15px 10px 1px 10px !important;
 	    }
+<<<<<<< HEAD
 		input[type=radio]{
 			b
 			
 		}
 
+=======
+		
+		#videoSettings {
+			max-width: 100% !important;
+			min-width: 100% !important;
+		}
+
+		.videoMenu {
+			max-width: 100% !important;
+			min-width: 100% !important;
+		}
+
+		div.multiselect { 
+			max-width: 100% !important;
+			min-width: 100% !important;
+		}	
+		
+		#headphonesDiv {
+			max-width: 100% !important;
+			min-width: 100% !important;
+			overflow: hidden !important;
+		}
+		
+		#outputSource {
+			width: 100% !important;
+		}
+		
+		#audioSourceScreenshare {
+			max-width: 90% !important;
+			min-width: 90% !important;
+			overflow: hidden !important;
+		}
+		
+		#videoSettings2 {
+			max-width: 90% !important;
+			min-width: 90% !important;
+			overflow: hidden !important;
+		}
+		
+>>>>>>> upstream/master
    }
 
 
@@ -383,10 +572,14 @@ img {
 	margin:5px;
 }
 
+<<<<<<< HEAD
 button {
 	padding:5px 10px 3px 10px;
 	margin:10px 0px;
 }
+=======
+
+>>>>>>> upstream/master
 /* Empty container that will replace the original container */
 #empty-container {
 	display: inline-block;
@@ -441,6 +634,7 @@ button {
 }
 
 .float{
+<<<<<<< HEAD
 	position:fixed;
 	width:60px;
 	height:60px;
@@ -478,14 +672,121 @@ button {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
 	z-index:10;
+=======
+	opacity: 0.8;
+	width:45px;
+	height:45px;
+	background-color:#6666;
+	color:#FFF;
+	border-radius:38px;
+	text-align:center;
+	margin:5px;
+}
+
+.float2{
+	opacity: 0.8;
+	width:45px;
+	height:45px;
+	background-color:#8888;
+	color:#FFF;
+	border-radius:38px;
+	text-align:center;
+	z-index:10;
+	margin:5px;
+}
+
+.rotate225 {
+   transform: rotate(135deg);
+}
+
+
+.myVideo{
+	
+	box-shadow: rgb(88, 88, 88) 0px 0px 5px 1px;
+
+	max-width: 800px !important;
+	width: 100% !important;
+	max-height: 100% !important;
+	height: auto !important;
+	
+	display: block !important;
+	margin: auto auto !important;
+	position: relative !important;
+	top: 50% !important;
+}
+
+#translateButton{
+	cursor: pointer;
+	z-index:6;
+}
+#controlButtons{
+	position:fixed;
+	z-index:5;
+	bottom:5px;
+	width:100%;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	height: 60px;
+	border: 0;
+>>>>>>> upstream/master
 }
 
 
 .my-float{
 	margin-top:7px;
+<<<<<<< HEAD
 }
 
 
+=======
+	opacity: 0.9;
+}
+
+.toggleSize {
+	font-size:32px;
+	color:white;
+}
+@media only screen and (max-height: 650px) {
+	
+	.my-float{
+		margin-top:4px;
+		margin-left:1px;
+	}
+	.toggleSize {
+		font-size:24px;
+		color:white;
+	}
+
+
+	.float{
+		opacity: 0.8;
+		width:30px;
+		height:30px;
+		background-color:#6666;
+		color:#FFF;
+		border-radius:38px;
+		text-align:center;
+		margin:5px;
+	}
+
+	.float2{
+		opacity: 0.8;
+		width:30px;
+		height:30px;
+		background-color:#8888;
+		color:#FFF;
+		border-radius:38px;
+		text-align:center;
+		z-index:10;
+		margin:5px;
+	}
+}
+
+
+
+
+>>>>>>> upstream/master
 img {
 	max-width: 100%;
 }
@@ -518,6 +819,7 @@ img {
 	}
 }
 
+<<<<<<< HEAD
 #gridlayout {
 	margin:0;
 	border:0;
@@ -526,6 +828,8 @@ img {
 	height:100%;
 }
 
+=======
+>>>>>>> upstream/master
 
 .column_neon {
   color:white;
@@ -595,7 +899,11 @@ img {
 }
 
 video {
+<<<<<<< HEAD
 	flex: 1 1 auto;
+=======
+	
+>>>>>>> upstream/master
 	background-color: transparent !important;
 	border:0;
 	margin:0;
@@ -664,6 +972,18 @@ video {
   background-color: #0066aa  !important;
 }
 
+<<<<<<< HEAD
+=======
+#audioTitle{
+	text-align:left;
+	padding: 7px 10px;
+}
+
+#audioTitle2{
+	text-align:left;
+	padding: 0px 10px 10px 1px;
+}
+>>>>>>> upstream/master
 .multiselect .multiselect-trigger:hover {
     cursor: pointer;
     cursor: hand;
@@ -680,6 +1000,7 @@ video {
     border-bottom-right-radius: 4px;
 }
 
+<<<<<<< HEAD
 div.multiselect {
 	background-color:#FFF;
 	max-width:320px;
@@ -689,6 +1010,42 @@ div.multiselect {
 	margin:auto auto;
 	border: 1px solid #ccc;
 	border-bottom:0;
+=======
+#videoSettings {
+	margin: auto auto; 
+	background-color: #f3f3f3; 
+	width: 420px;   
+	padding: 10px 0; 
+	margin: 0 0 5px 0;
+	border: 1px solid #ccc;
+}
+
+#videoSource {
+	background-color: #FFF; 
+	display: display:inline-block;
+	vertical-align: middle;
+}
+
+.videoMenu{
+	background-color: #f3f3f3; 
+	width: 420px; 
+	display: inline-block; 
+	padding: 5px 10px; 
+	border: 1px solid #ccc; 
+	vertical-align: middle;
+	text-align:left;
+}
+
+div.multiselect {
+	background-color:#FFF;
+	width: 420px; 
+	white-space: nowrap;
+	overflow:hidden;
+	margin:auto auto;
+	border: 1px solid #ccc;
+	border-bottom:0;
+	display: inline-block;
+>>>>>>> upstream/master
 }
 
 .multiselect .multiselect-contents {
@@ -765,4 +1122,24 @@ input[type=checkbox]
   -o-transform: scale(1.3); /* Opera */
   transform: scale(1.3);
   padding: 5px;
+<<<<<<< HEAD
+=======
+  margin: 0 5px;
+}
+
+#screenshare {
+	height:300px;
+	display: inline-block;
+	max-height:50vh;
+	max-width:50vh;
+	border:0;
+	margin:0;
+	padding:0;
+	text-shadow: 0;
+	box-shadow:0;
+	text-decoration:none;
+	border-image-width:0;
+    background-size: contain;
+	background-color: rgba(0,0,0,0);
+>>>>>>> upstream/master
 }
